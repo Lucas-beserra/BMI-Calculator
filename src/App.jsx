@@ -5,6 +5,7 @@ import BmiResult from './components/BmiResult'
 import Table from './components/Table'
 import CalculateButton from './components/CalculateButton'
 import Introduction from './components/Introduction'
+import ResetButton from './components/ResetButton'
 
 export default function App () {
 
@@ -23,9 +24,13 @@ export default function App () {
       </section>
     
       <section className="container mx-auto flex flex-col justify-center items-center" >
-        <CalculateButton weight={weight} height={height} setResult={setResult}/>
+        <div className="flex gap-2">
+          <CalculateButton weight={weight} height={height} setResult={setResult}/>
+          <ResetButton setResult={setResult} setWeight={setWeight} setHeight={setHeight}/>
+        </div>
 
         <BmiResult result={result}/>
+
         <Table result={result}/>
       </section>
     </main>

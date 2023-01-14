@@ -15,7 +15,7 @@ export default class CalculateButton extends React.Component {
     render(){
         return (
             <div>
-                <button className="border-2 rounded border-orange-900 bg-orange-700 text-white w-20 h-8 mb-3 text-lg" onClick={this.calc}>Calcular</button>
+                <button className="border-2 rounded border-blue-900 bg-blue-700 text-white w-20 h-8 mb-3 text-lg" onClick={this.calc}>Calcular</button>
             </div>
         )
     }
