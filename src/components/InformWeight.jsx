@@ -12,7 +12,7 @@ export default class InformWeight extends React.Component {
                 <label>Peso {'(Ex.: 58.5)'}</label>
                 <input 
                 type="text"
-                className="border-2 border-zinc-900 rounded pl-1 h-9" 
+                className="border-2 border-zinc-800 rounded pl-1 h-9 shadow-lg shadow-zinc-500" 
                 value={this.props.weight} 
                 onChange={(e)=>this.props.setWeight(e.target.value)}/>
             </div>
