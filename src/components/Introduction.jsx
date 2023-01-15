@@ -21,7 +21,7 @@ export default class Introduction extends React.Component {
                     Em meados do século XIX, um matemático chamado <a className="italic text-blue-600" href="https://pt.wikipedia.org/wiki/Adolphe_Qu%C3%A9telet">Lambert Quételet</a> desobriu uma forma muito eficaz de saber se um indivíduo está acima do peso ou não. Para fazer esse cálculo, ele dividiu seu peso pela sua altura² {'(P/A²)'} e concluiu que o resultado era equivalente ao seu índice de massa corporal.
                 </p>
                 <p className="mt-2 text-xl items-center">
-                    Com o valor obtido a partir dessa divisão torna-se possível identificar se uma pessoa está com obesidade, desnutrição, ou apenas um pouco acima do peso. A própria OMS utiliza esse método em suas pesquisas. 
+                    Com o valor obtido a partir dessa divisão, torna-se possível identificar se uma pessoa está com obesidade, desnutrição, ou apenas um pouco acima do peso. A própria OMS utiliza esse método em suas pesquisas. 
                 </p>
 
                 <h3 className="mt-4 text-2xl">Você também pode saber o seu IMC! Temos uma calculadora que vai te ajudar</h3>
