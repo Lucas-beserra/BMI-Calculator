@@ -18,7 +18,7 @@ export default function App () {
       <section>
         <Introduction/>
       </section>
-      <section className="container mx-auto mt-10 mb-5 flex justify-center items-center">
+      <section className="container mx-auto mt-10 mb-5 flex flex-col justify-center items-center gap-4">
         <InformWeight weight={weight} setWeight={setWeight}/>
         <InformHeight hight={height} setHeight={setHeight}/>
       </section>
