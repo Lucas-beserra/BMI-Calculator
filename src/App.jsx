@@ -6,6 +6,7 @@ import Table from './components/Table'
 import CalculateButton from './components/CalculateButton'
 import Introduction from './components/Introduction'
 import ResetButton from './components/ResetButton'
+import { Footer } from './components/Footer'
 
 export default function App () {
 
@@ -14,7 +15,7 @@ export default function App () {
   const [result, setResult] = useState(0)
 
   return (
-    <main className="h-screen">
+    <main className="h-screen overflow-x-hidden bg-slate-300">
       <section>
         <Introduction/>
       </section>
@@ -32,6 +33,8 @@ export default function App () {
         <BmiResult result={result}/>
 
         <Table result={result}/>
+
+        <Footer/>
       </section>
     </main>
   )

@@ -8,7 +8,7 @@ export default class Table extends React.Component {
 
     render(){
         return (
-            <table className="mx-auto mt-3 w-[550px] mb-8 pt-5 items-center text-2xl table-auto border-collapse bg-slate-400 shadow-md">
+            <table className="mx-auto mt-3 w-[550px] mb-8 pt-5 items-center text-2xl table-auto border-collapse rounded-sm bg-slate-400 shadow-md">
                 <thead>
                     <tr>
                         <th className="border-2 border-gray-700">Classificação</th>
