@@ -8,7 +8,9 @@ export default class CalculateButton extends React.Component {
     }
 
     functionCalc = () => {
-        const response = this.props.weight/(this.props.height*this.props.height)
+        const convertHeight = String(this.props.height.replace(",", "."))
+        const convertWeight = String(this.props.weight.replace(",", "."))
+        const response = Number(convertWeight)/(Number(convertHeight)*Number(convertHeight))
         this.props.setResult(response)
     }
 

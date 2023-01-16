@@ -2,6 +2,7 @@ import React from 'react'
 import measuringTape from "../public/images/icons8-fita-métrica-50.png"
 
 export default function InformHeight (props) {
+
     return (
         <div className="flex gap-3"> 
             <img src={measuringTape} alt=""/>
