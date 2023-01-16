@@ -33,10 +33,10 @@ export function Footer () {
             </ul>
             <ul className="mt-8">
                 <li>
-                    Fonte das informações contidas no texto: <a href={urlFontInfoText}>Mundo educação</a>
+                    Fonte das informações contidas no texto: <a href={urlFontInfoText} target="_blank">Mundo educação</a>
                 </li>
                 <li>
-                    Fonte das informações contidas na tabela: <a href={urlFontInfoTable}>Saúde Fácil</a>
+                    Fonte das informações contidas na tabela: <a href={urlFontInfoTable} target="_blank">Saúde Fácil</a>
                 </li>
                 <li></li>
             </ul>
